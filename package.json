@@ -1,0 +1,35 @@
+{
+  "name": "@shroomlabs/lykyn-adapter",
+  "version": "0.0.1",
+  "description": "Shroom Labs outside-control adapter for the Lykyn Smart Mushroom Grow Box. Protocol capture pending.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "./src/adapters/lykyn.js",
+  "exports": {
+    ".": "./src/adapters/lykyn.js",
+    "./adapter": "./src/adapters/lykyn.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "apply": "node scripts/lykyn-apply.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themsquared/lykyn-adapter.git"
+  },
+  "homepage": "https://github.com/themsquared/lykyn-adapter",
+  "bugs": {
+    "url": "https://github.com/themsquared/lykyn-adapter/issues"
+  },
+  "files": [
+    "src",
+    "scripts",
+    "docs",
+    "LICENSE",
+    "README.md"
+  ]
+}
